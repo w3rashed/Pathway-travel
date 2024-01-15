@@ -8,7 +8,10 @@
                      custom css link here
     ----------------------------------------------------------->
     <link rel="stylesheet" href="css/style.css">
-
+    <!--------------------------------------------------------\
+                     drop down css link here
+    ----------------------------------------------------------->
+    <link rel="stylesheet" href="drop-dwon-css/style.css">
     <!--------------------------------------------------------\
                     google font link here
     ----------------------------------------------------------->
@@ -22,30 +25,119 @@
     
 </head>
 <body>
+    <!--------------------------------------------------------\
+                    header section  here
+    ----------------------------------------------------------->
     <header>
         <div class="container">
-            <nav class="nav-bar">
-                <div class="logo">
-                    <img src="img/Group 40071 (2).png" alt="">
-                    <h2>Pathway <span>Travel</span></h2>
-                </div>
-                <div class="nav-menu">
-                    <ul>
-                        <li><a style="color:#FF5400 ;" href="">Home</a></li>
-                        <li><a href="">Packages</a></li>
-                        <li><a href="">Testimonial</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
-                        
-                    </ul>
-                </div>
-                <div>
+            <div class="menu-item">
+                <nav class="nav-bar">
+                    <div class="logo">
+                        <img src="img/Group 40071 (2).png" alt="">
+                        <h2>Pathway <span>Travel</span></h2>
+                    </div>
+                    <div class="nav-menu">
+                        <ul>
+                            <li><a style="color:#FF5400 ;" href="">Home</a></li>
+                            <li><a href="">Packages</a></li>
+                            <li><a href="">Testimonial</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                            
+                        </ul>
+                    </div>
                     
+                </nav>
+                
+                <div class="menu-button">
+                    <i  class="fa-solid fa-bars"></i>
                 </div>
-            </nav>
-
+            </div>
         </div>
 
     </header>
+    <!--------------------------------------------------------\
+                    banenr section  here
+    ----------------------------------------------------------->
+    <main>
+        <div class="banner">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="banner-a">
+                        <div class="banner-dis">
+                            <h1>Explore Your Travel</h1>
+                            <P>Embark on a limitless journey with "Your Travel." Unveil new horizons, create unforgettable memories.</P>
+                        </div>
+                        <div class="banner-form">
+                            <div class="Where">
+                                <input type="text" name="" id="" placeholder="Where go">
+                            </div>
+                            <form class="when">
+                                <input list="Month" name="Month" placeholder="When ">
+                                <datalist id="Month">
+                                  <option value="journey">
+                                  <option value="February">
+                                  <option value="March">
+                                  <option value="April">
+                                  <option value="May">
+                                </datalist>
+                            </form>
+                            <form class="type">
+                                <input list="type" name="type" placeholder="Select Type">
+                                <datalist id="type">
+                                  <option value="Helicopter">
+                                  <option value="Plain">
+                                  <option value="Train">
+                                  <option value="Bus">
+                                  <option value="Troller boat">
+                                </datalist>
+                            </form>
+                            <div class="find-new">
+                                <a href=""><button><i class="fa-solid fa-magnifying-glass"></i>Find Now</button></a>
+                            </div>
+                            
+                            
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------\
+                    service section  here
+        ----------------------------------------------------------->
+
+        <div class="service">
+            <div class="container">
+                <div class="service-content">
+                    <div class="secvice-left">
+                        <h3 class="hervice-header">Our Popular Tours</h3>
+                        <p class="service-des">Discover our popular tours, meticulously crafted for ultimate enjoyment. From breathtaking landscapes to cultural gems, embark on unforgettable adventures with expert guides and seamless itineraries.</p>
+                        <ul>
+                            <li>
+                                <p>Enchanting landscapes await on our scenic tours, where nature's beauty unfolds at every step.</p>
+                            </li>
+                            <li>
+                                <p>
+                                    Dive deep into history and culture with our heritage tours, unveiling the secrets of iconic landmarks.
+                                </p>
+                            </li>
+                            <li>
+                                <p>For adrenaline enthusiasts, embark on heart-pounding adventures with our action-packed excursions. Your perfect journey begins here.</p>
+                            </li>
+                        </ul>
+                        
+                        <p class="service-des">Indulge in our Popular Tours and unlock a world of tailored experiences. Immerse yourself in breathtaking scenery, uncover rich cultural heritage, or embrace thrilling adventures.</p>
+                        <a class="service-btn" href="">
+                            <button>Read More</button>
+                        </a>
+                    </div>
+                    <div class="secvice-rignt">
+                        <img src="img/Rectangle 4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

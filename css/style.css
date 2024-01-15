@@ -4,9 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
+    text-decoration: none;
 }
 .container{
-    width: 1140px;
+    width: 1200px;
     margin: 0 auto;
 }
 /***********************************************
@@ -51,14 +52,163 @@
     font-size: 1.125rem;
 }
 
+.menu-button i{
+    display: none;
+}
+/********************************************************
+            banner section css here
+********************************************************/
+.banner-content{
+    background-image: url('../img/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(19, 19, 24, 0.0) 80%),url('../img/Group\ 13\ \(1\)\ \(1\).png');
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
 
+.banner-dis{
+    text-align: center;
+}
+.banner-dis h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-dis p{
+    color:#fff ;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1.5rem 15.44rem 3rem 15.44rem;
+}
+/*********************** banner from */
+.banner-form{
+    background-color: #ffffff5d;
+    padding:1rem ;
+    margin: 0 8rem; 
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.Where input, .when input, .type input{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    padding: 1rem  0rem 1rem 1rem;
+    border-style: none;
+    border-radius: .5rem;
+
+}
+.find-new i{
+    margin-right:.5rem ;
+    
+}
+.find-new a button{
+    background-color: var(--second-color);
+    color: #fff;
+    padding:1.1rem 2.2rem ;
+    border-style: none;
+    border-radius: .5rem;
+}
 
 /********************************************************
-            responsive for mobile device *600px here
+            service section css here
+********************************************************/
+.service-content{
+    margin: 6.25rem 0;
+    display: flex;
+    gap:3.13rem;
+}
+.secvice-left h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.secvice-left ul{
+    margin-left: 1rem;
+}
+.secvice-left ul li p{
+    margin-bottom: 1rem;
+}
+.secvice-left p{
+color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+line-height: 1.625rem;
+}
+.service-des{
+    margin: 1.5rem 0;
+}
+.service-btn button{
+    border-style: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    /* margin:2rem 0 6.25rem 0 ; */
+}
+.service-btn {
+    background-color: var(--second-color);
+    padding:.87rem 2.29rem ;
+    border-radius: .5rem;
+    margin:2rem 0 6.25rem 0 ;
+}
+.secvice-rignt img{
+    width: auto;
+}
+/********************************************************
+            responsive for mobile device max *600px 
 ********************************************************/
 @media screen and (max-width:600px) {
+    /******************
+     for header
+    ******************/
+    .container{
+        margin: 0 3rem 0 3rem;
+
+    }
     .nav-menu{
         display: none;
     }
-}
+    .menu-button i{
+        display: block;
+        margin: 3rem;
+    }
+    .menu-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
+    }
+    .menu-item i{
+        font-size: 2rem;
+        color: #424247;
+    }
+    .menu-item:hover .nav-menu {
+        display: ;
+    }
+    /* for banner */
+    .banner-form, .service-content{
+        flex-direction: column;
+    }
+    .banner-content{
+        margin: ;
+    }
+    .banner-content{
+        height: auto;
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+    /* service */
+    .secvice-rignt img{
+        width:100% ;
+        margin-right: 3rem;
+    }
+}
+/********************************************************
+            responsive for tab device  up to *600px 
+********************************************************/
