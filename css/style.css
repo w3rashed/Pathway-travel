@@ -159,6 +159,7 @@ line-height: 1.625rem;
 }
 .secvice-rignt img{
     width: auto;
+    
 }
 /********************************************************
             responsive for mobile device max *600px 
@@ -196,18 +197,36 @@ line-height: 1.625rem;
         flex-direction: column;
     }
     .banner-content{
-        margin: ;
+        height: auto;
+        width: auto;
     }
     .banner-content{
         height: auto;
         padding: 2rem;
         margin-right: 3rem;
     }
+    .Where input, .when input, .type input{
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 1rem;
+        padding: 1rem  20rem 1rem 20rem;
+        border-style: none;
+        border-radius: .5rem;
+        text-align: center;
+    
+    }
+    .find-new a button{
+        background-color: var(--second-color);
+        color: #fff;
+        padding:1.1rem 23.5rem ;
+        border-style: none;
+        border-radius: .5rem;
+    } 
     /* service */
     .secvice-rignt img{
         width:100% ;
         margin-right: 3rem;
     }
+
 }
 /********************************************************
             responsive for tab device  up to *600px 
