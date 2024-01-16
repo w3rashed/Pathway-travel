@@ -62,7 +62,7 @@
     background-image: url('../img/Group\ 13\ \(1\)\ \(1\).png');
     background-image: linear-gradient(180deg, #070211 0%, rgba(19, 19, 24, 0.0) 80%),url('../img/Group\ 13\ \(1\)\ \(1\).png');
     height: 70vh;
-    width: 100%;
+    width: 100%; 
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0.5rem;
@@ -72,6 +72,8 @@
 
 .banner-dis{
     text-align: center;
+    width: 65%;
+    margin: 0 auto;
 }
 .banner-dis h1{
     color: #fff;
@@ -82,17 +84,18 @@
     color:#fff ;
     font-size: 1rem;
     line-height: 1.625rem;
-    margin: 1.5rem 15.44rem 3rem 15.44rem;
+    margin: 1.5rem 0 3rem 0;
+
 }
 /*********************** banner from */
 .banner-form{
     background-color: #ffffff5d;
-    padding:1rem ;
-    margin: 0 8rem; 
+    padding:1rem ; 
     border-radius: .5rem;
     display: flex;
-    justify-content: space-between;
     gap: 1rem;
+    width: 72%;
+    margin: 0 auto;
     
 }
 .Where input, .when input, .type input{
@@ -114,6 +117,7 @@
     border-style: none;
     border-radius: .5rem;
 }
+.type{}
 
 /********************************************************
             service section css here
@@ -123,7 +127,7 @@
     display: flex;
     gap:3.13rem;
 }
-.secvice-left h3{
+.secvice-left h3, .choose-info h3{
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
@@ -134,7 +138,7 @@
 .secvice-left ul li p{
     margin-bottom: 1rem;
 }
-.secvice-left p{
+.secvice-left p, .choose-info p{
 color: rgba(19, 19, 24, 0.70);
 font-size: 1rem;
 line-height: 1.625rem;
@@ -159,75 +163,293 @@ line-height: 1.625rem;
 }
 .secvice-rignt img{
     width: auto;
-    
-}
-/********************************************************
-            responsive for mobile device max *600px 
-********************************************************/
-@media screen and (max-width:600px) {
-    /******************
-     for header
-    ******************/
-    .container{
-        margin: 0 3rem 0 3rem;
-
-    }
-    .nav-menu{
-        display: none;
-    }
-    .menu-button i{
-        display: block;
-        margin: 3rem;
-    }
-    .menu-item{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-    .menu-item i{
-        font-size: 2rem;
-        color: #424247;
-    }
-    .menu-item:hover .nav-menu {
-        display: ;
-    }
-    /* for banner */
-    .banner-form, .service-content{
-        flex-direction: column;
-    }
-    .banner-content{
-        height: auto;
-        width: auto;
-    }
-    .banner-content{
-        height: auto;
-        padding: 2rem;
-        margin-right: 3rem;
-    }
-    .Where input, .when input, .type input{
-        color: rgba(19, 19, 24, 0.50);
-        font-size: 1rem;
-        padding: 1rem  20rem 1rem 20rem;
-        border-style: none;
-        border-radius: .5rem;
-        text-align: center;
-    
-    }
-    .find-new a button{
-        background-color: var(--second-color);
-        color: #fff;
-        padding:1.1rem 23.5rem ;
-        border-style: none;
-        border-radius: .5rem;
-    } 
-    /* service */
-    .secvice-rignt img{
-        width:100% ;
-        margin-right: 3rem;
-    }
 
 }
 /********************************************************
-            responsive for tab device  up to *600px 
+            Why Choose Us section css here
 ********************************************************/
+
+.choose-info{
+ text-align: center;
+ margin: 6.25rem 0
+}
+
+.choose-info p{
+    margin:1.5rem 0 ;
+}
+.choose-card h4{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 2rem 0 1rem 0;
+}
+.choose-card p{
+    color: var(--praimary-color);
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+.card-hotel{
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem 3rem 2rem 2rem;
+    width: 50%;
+}
+.card-Service{
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 2rem 3rem 2rem 2rem;
+    width: 50%;
+}
+.card-Guarante{
+    border-radius: 1rem;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
+    padding: 2rem 3rem 2rem 2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.card-row-a{
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    margin-bottom: 1.5rem;
+}
+.choose{
+    margin: 6.25rem 0 6.25rem 0 ;
+}
+/********************************************************
+            Destination section css here
+********************************************************/
+.Destination-content{
+    text-align: center;
+    margin: 0 16.44rem;
+}
+.Destination-content h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.Destination-content p, .footer-dis p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 3rem 0;
+}
+.d-1, .d-2, .d-3{
+    display: flex;
+    gap: 1.5rem;
+}
+.d-1 img{
+    width: 35.8125rem;
+    height: 18.75rem;
+    
+}
+.d-1 div p, .d-3 div p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 50%;
+    left: 40%;
+    
+}
+
+.d-2 img {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+.d-2 div p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
+}
+/********************************************************
+            Deals section css here
+********************************************************/
+.deals-head{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.deals-head h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.deals-head p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 3rem 0;
+}
+/********************************************************
+            over view section css here
+********************************************************/
+.view-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 6.25rem 0;
+    gap:1.75rem ;
+}
+
+.view-left h2{
+    margin-right: 5rem;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3.75rem;
+}
+.view-left > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1.5rem 0;
+}
+.view-left ul li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    margin: 0 1rem;
+}
+.view-left ul li p{
+    margin-bottom: 1rem;
+}
+.view-btn{
+    margin-top:2rem;
+}
+.view-right{
+    width: 38.125rem;
+}
+/********************************************************
+            news letter section css here
+********************************************************/
+.news-content{
+    display: flex;
+    gap: 1.5rem;
+    margin: 6.25rem 0;
+
+}
+.letter-left{
+    border: 1px solid var(--second-color);
+    border-radius: 1rem;
+    width: 29.625rem;
+}
+.letter-left > div{
+    margin: 2.5rem;
+}
+.letter-left h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.letter-left p{
+    color: var(--praimary-color);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 1rem 2.69rem 1.5rem 0;
+}
+.line{
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 1.5rem;
+}
+.letter-left input{
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1rem 11.69rem 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+
+}
+.news-btn{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.news-btn button{
+    background-color: var(--second-color);
+    border-style: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.letter-right{
+    width: 42rem;
+    position: relative;
+}
+.letter-right img{
+    width: 45rem;
+}
+.discount{
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    padding: 1.7rem 0rem;
+    border-radius: 1rem;
+    width: 20.25rem;
+    position:absolute ;
+    bottom: 12%;
+    left: 57.6%;
+    transform: rotate(-20deg);
+}
+.discount h6{
+font-size: 1.5rem;
+}
+.discount h5{
+    font-size: 2rem ;
+    font-weight: 800;
+}
+/********************************************************
+            footer section css here
+********************************************************/
+footer{
+    background: rgba(19, 19, 24, 0.05); 
+    padding:6.88rem 0 ;
+
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+   }
+   .footer-logo h2{
+       color: #131318;
+       font-size: 2.25rem;
+       font-weight: 800;
+       margin-left: 1.4rem;
+   }
+   .footer-logo h2 span{
+       color: var(--second-color);
+   }
+   .footer-dis p{
+    text-align: center;
+    margin: 1rem 4rem 2rem 4rem;
+   }
+   .social-icon{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   }
+   .social-icon{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10) ;
+    padding-bottom: 3.12rem;
+   }
+   .footer-content h3{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 3.12rem 0 0rem 0;
+   }
