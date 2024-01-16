@@ -259,9 +259,8 @@ line-height: 1.625rem;
     border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    
     padding: 2rem 3rem 2rem 2rem;
-    width: 50%;
+    max-width: 570px;
     margin: 0 auto;
 }
 .card-row-a{
@@ -568,7 +567,6 @@ footer{
     }
     /* banner */
     .banner-content{
-        width: ;
         height: 80vh;
     }
     .banner-form{
@@ -584,7 +582,7 @@ footer{
         padding:1.1rem 39.9% ;
     }
 /* services */
-    .service-content, .d-1, .d-2, .d-3{
+    .service-content, .d-1, .d-2, .d-3, .card-row-a, .view-content{
     flex-direction: column;
     }
     .secvice-left{
@@ -613,6 +611,20 @@ footer{
     .d-2 div p{
         display: none;
     }
-
-
+/* Why Choose Us */
+.card-hotel, .card-Service {
+    width: 534px;
+}
+.cards-Guarante, .view-right img{
+    width:534px ;
+}
+/* card */
+.deals-card-1 .cards-info, .deals-card-3 .cards-info, .deals-card-2 .cards-info{
+    width:490px;
+    top: 40%;
+    left: 4%;
+}
+.deals-card-1, .deals-card-2,.deals-card-3{
+    height:80vh ;
+}
 }
