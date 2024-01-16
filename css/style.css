@@ -415,7 +415,33 @@ line-height: 1.625rem;
     margin-top:2rem;
 }
 .view-right{
-    width: 38.125rem;
+    width: 100%;
+    height:50vh;
+    background-image:url('../img/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-right h4{
+    width: 60%;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-align: center;
+}
+.view-right{
+    position: relative;
+    
+}
+.play-btn img{
+    width: 27%;
+  position: absolute;
+  right: 23%;
+  top: 642%;
 }
 /********************************************************
             news letter section css here
@@ -461,7 +487,7 @@ line-height: 1.625rem;
 
 }
 .news-btn{
-    width: 100%;
+    width: 105%;
     text-align: center;
     color: #fff;
     border-radius: 0.5rem;
@@ -474,7 +500,7 @@ line-height: 1.625rem;
     font-weight: 800;
 }
 .letter-right{
-    width: 42rem;
+    width: 100%;
     position: relative;
 }
 .letter-right img{
@@ -611,6 +637,10 @@ footer{
     .d-2 div p{
         display: none;
     }
+    .d-2 img{
+        height: 18.75rem;
+        width: 34.8125rem;
+    }
 /* Why Choose Us */
 .card-hotel, .card-Service, .letter-right img {
     width: 534px;
@@ -627,16 +657,36 @@ footer{
 .deals-card-1, .deals-card-2,.deals-card-3{
     height:80vh ;
 }
+/* over view */
+.view-right{
+    width: 100%;
+    height: 60vh;
+    background-image:url('../img/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.play-btn img{
+    width: 80%;
+    right: 10%;
+    top: 1102%;
+}
 /* news letter */
 .letter-left{
     width: 534px;
 }
+.letter-left img{
+    width: 534px;
+}
 .discount{
     bottom: 15%;
-    left: 30%;
+    left: 38%;
 }
 .letter-left input{
     padding: 1rem 14rem 1rem 1.25rem;
+}
+.news-btn{
+    width: 100%;
 }
 
 
