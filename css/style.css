@@ -582,7 +582,7 @@ footer{
         padding:1.1rem 39.9% ;
     }
 /* services */
-    .service-content, .d-1, .d-2, .d-3, .card-row-a, .view-content{
+    .service-content, .d-1, .d-2, .d-3, .card-row-a, .view-content, .news-content{
     flex-direction: column;
     }
     .secvice-left{
@@ -612,7 +612,7 @@ footer{
         display: none;
     }
 /* Why Choose Us */
-.card-hotel, .card-Service {
+.card-hotel, .card-Service, .letter-right img {
     width: 534px;
 }
 .cards-Guarante, .view-right img{
@@ -627,4 +627,17 @@ footer{
 .deals-card-1, .deals-card-2,.deals-card-3{
     height:80vh ;
 }
+/* news letter */
+.letter-left{
+    width: 534px;
+}
+.discount{
+    bottom: 15%;
+    left: 30%;
+}
+.letter-left input{
+    padding: 1rem 14rem 1rem 1.25rem;
+}
+
+
 }
