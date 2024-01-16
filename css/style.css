@@ -117,7 +117,6 @@
     border-style: none;
     border-radius: .5rem;
 }
-.type{}
 
 /********************************************************
             service section css here
@@ -164,6 +163,60 @@ line-height: 1.625rem;
 .secvice-rignt img{
     width: auto;
 
+}
+/********************************************************
+            Destination section css here
+********************************************************/
+.Destination-content{
+    text-align: center;
+    margin: 0 16.44rem;
+}
+.Destination-content h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.Destination-content p, .footer-dis p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 3rem 0;
+}
+.d-1, .d-2, .d-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.d-1 img,.d-3 img{
+    width: 34.8125rem;
+    height: 18.75rem;
+    
+}
+.d-2 img{
+    width: 100%;
+}
+.d-1 div p, .d-3 div p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 50%;
+    left: 40%;
+    
+}
+
+.d-2 img {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+.d-2 div p{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    position: relative;
+    bottom: 50%;
+    left: 30%;
 }
 /********************************************************
             Why Choose Us section css here
@@ -220,60 +273,7 @@ line-height: 1.625rem;
 .choose{
     margin: 6.25rem 0 6.25rem 0 ;
 }
-/********************************************************
-            Destination section css here
-********************************************************/
-.Destination-content{
-    text-align: center;
-    margin: 0 16.44rem;
-}
-.Destination-content h3{
-    color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-.Destination-content p, .footer-dis p{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.625rem;
-    margin: 1.5rem 0 3rem 0;
-}
-.d-1, .d-2, .d-3{
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
-.d-1 img,.d-3 img{
-    width: 34.8125rem;
-    height: 18.75rem;
-    
-}
-.d-2 img{
-    width: 100%;
-}
-.d-1 div p, .d-3 div p{
-    color: #fff;
-    font-size: 1.75rem;
-    font-weight: 800;
-    position: relative;
-    bottom: 50%;
-    left: 40%;
-    
-}
 
-.d-2 img {
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-}
-.d-2 div p{
-    color: #fff;
-    font-size: 1.75rem;
-    font-weight: 800;
-    position: relative;
-    bottom: 50%;
-    left: 30%;
-}
 /********************************************************
             Deals section css here
 ********************************************************/
@@ -552,7 +552,11 @@ footer{
 
    @media screen and (max-width:600px) {
     .container{
+        width: 534px;
         margin: 0 2rem;
+    }
+    .nav-menu{
+        display: none;
     }
     .menu-button i{
         display: block;
@@ -564,7 +568,7 @@ footer{
     }
     /* banner */
     .banner-content{
-        width: 47%;
+        width: ;
         height: 80vh;
     }
     .banner-form{
@@ -579,7 +583,36 @@ footer{
     .find-new a button{
         padding:1.1rem 39.9% ;
     }
-
+/* services */
+    .service-content, .d-1, .d-2, .d-3{
+    flex-direction: column;
+    }
+    .secvice-left{
+        max-width: 62vh;
+    }
+    .d-2 img{
+        width: 63vh;
+    }
+    /* destination */
+    .Destination-img img{
+        margin: 0 ;
+    }
+   .Destination-content{
+    max-width: 534px;
+    margin: 0 auto;
+   }
+    
+    
+    .d-1 div p, .d-3 div p{
+        display: none;
+        
+    }
+    .d-2, .d-3{
+        margin-top: 1rem;
+    }
+    .d-2 div p{
+        display: none;
+    }
 
 
 }
