@@ -94,7 +94,7 @@
     border-radius: .5rem;
     display: flex;
     gap: 1rem;
-    width: 76%;
+    width: 80%;
     margin: 0 auto;
     
 }
@@ -552,14 +552,34 @@ footer{
 
    @media screen and (max-width:600px) {
     .container{
-        margin: 0 3rem;
+        margin: 0 2rem;
     }
     .menu-button i{
         display: block;
-        margin-left: 9rem;
+        margin-left: 10rem;
     }
     .logo{
         display: flex;
         justify-content: space-between;
     }
+    /* banner */
+    .banner-content{
+        width: 47%;
+        height: 80vh;
+    }
+    .banner-form{
+        display: table;
+        gap: 2rem;
+    }
+    .Where input, .when input, .type input{
+        padding: 1rem  11rem 1rem .94rem;
+        margin-bottom: 1rem;
+    
+    }
+    .find-new a button{
+        padding:1.1rem 39.9% ;
+    }
+
+
+
 }
