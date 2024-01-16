@@ -118,7 +118,7 @@
 .find-new a button{
     background-color: var(--second-color);
     color: #fff;
-    padding:1.1rem 2.2rem ;
+    padding:1.1rem 3.2rem ;
     border-style: none;
     border-radius: .5rem;
 }
@@ -643,7 +643,9 @@ footer{
     margin: 0 auto;
    }
     
-    
+    .Destination-img p{
+        display: none;
+    }
     .d-2, .d-3{
         margin-top: 1rem;
     }
