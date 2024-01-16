@@ -556,7 +556,7 @@ font-size: 1.5rem;
 }
 .review-1{
     background: rgba(19, 19, 24, 0.05);
-  padding: 4.35rem 4.35rem 3.75rem 4.35rem;
+  padding: 2.35rem 0.35rem 3.75rem 1.35rem;
   border-radius: 1rem;
   align-items: center;
   margin: 5rem;
@@ -584,6 +584,7 @@ font-size: 1.5rem;
 .stars{
     color: var(--second-color);
     font-size: 1.5rem;
+    margin-left: 5px;
 }
 .review-1 p{
     color: rgba(21, 21, 22, 0.385);
