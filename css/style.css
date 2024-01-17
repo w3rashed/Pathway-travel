@@ -431,6 +431,9 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 .view-btn{
     margin-top:2rem;
 }
+.view-right-n{
+    flex-basis: 100%;
+}
 .view-right{
     width: 100%;
     height:50vh;
@@ -457,9 +460,9 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
 }
 .play-btn img{
     width: 27%;
-  position: absolute;
-  right: 23%;
-  top: 644%;
+    position: absolute;
+    right: 22%;
+    top: 644%;
 }
 /********************************************************
             news letter section css here
@@ -703,7 +706,7 @@ footer{
     .find-new a button{
         padding:1.1rem 39.9% ;
     }
-/* services */
+    /* services */
     .service-content, .d-1, .d-2, .d-3, .card-row-a, .view-content, .news-content, .r-item{
     flex-direction: column;
     }
@@ -737,60 +740,60 @@ footer{
         width: 100%;
     }
     
-/* Why Choose Us */
-.card-hotel, .card-Service, .letter-right img {
-    width: 534px;
-}
-.cards-Guarante, .view-right img{
-    width:534px ;
-}
-/* card */
-.deals-card-1 .cards-info, .deals-card-3 .cards-info, .deals-card-2 .cards-info{
-    width:490px;
-    top: 40%;
-    left: 4%;
-}
-.deals-card-1, .deals-card-2,.deals-card-3{
-    height:80vh ;
-}
-/* over view */
-.view-right{
-    width: 100%;
-    height: 60vh;
-    background-image:url('../img/Group\ 40089.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 1rem;
-}
-.play-btn img{
-    width: 80%;
-    right: 10%;
-    top: 1126%;
-}
-/* news letter */
-.letter-left{
-    width: 534px;
-}
-.letter-left img{
-    width: 534px;
-}
-.discount{
-    bottom: 15%;
-    left: 38%;
-}
-.letter-left input{
-    padding: 1rem 14rem 1rem 1.25rem;
-}
-.news-btn{
-    width: 100%;
-}
-/* review */
-.review-1{
-    padding: 15px 10px;
-}
+    /* Why Choose Us */
+    .card-hotel, .card-Service, .letter-right img {
+        width: 534px;
+    }
+    .cards-Guarante, .view-right img{
+        width:534px ;
+    }
+    /* card */
+    .deals-card-1 .cards-info, .deals-card-3 .cards-info, .deals-card-2 .cards-info{
+        width:490px;
+        top: 40%;
+        left: 4%;
+    }
+    .deals-card-1, .deals-card-2,.deals-card-3{
+        height:80vh ;
+    }
+    /* over view */
+    .view-right{
+        width: 100%;
+        height: 60vh;
+        background-image:url('../img/Group\ 40089.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1rem;
+    }
+    .play-btn img{
+        width: 80%;
+        right: 10%;
+        top: 1103%;
+    }
+    /* news letter */
+    .letter-left{
+        width: 534px;
+    }
+    .letter-left img{
+        max-width: 534px;
+    }
+    .discount{
+        bottom: 15%;
+        left: 38%;
+    }
+    .letter-left input{
+        padding: 1rem 14rem 1rem 1.25rem;
+    }
+    .news-btn{
+        max-width: 100%;
+    }
+    /* review */
+    .review-1{
+        padding: 15px 10px;
+    }
 /* review */
 .review-1, .review-2, .review-3{
-    width: 534px;
+    max-width: 534px;
     background: rgba(19, 19, 24, 0.05);
     padding: 2.35rem 0.35rem 3.75rem 1.35rem;
     border-radius: 1rem;
